@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/iris/workspace/stock_forecasting/iris/model_save/model.ckpt"
+all_model_checkpoint_paths: "/home/iris/workspace/stock_forecasting/iris/model_save/model.ckpt"

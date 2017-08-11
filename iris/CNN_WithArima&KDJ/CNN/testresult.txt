@@ -1,0 +1,293 @@
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_SIZE= 250 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 128 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.75
+total train_length: 500
+test_length: 50
+250
+200
+50
+run loaded session
+Model restored from file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_3.ckpt
+Test error: 36.0%
+[Finished in 1.4s]
+
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_SIZE= 250 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 128 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.75
+total train_length: 500
+test_length: 50
+250
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 6.1 ms
+Minibatch loss: 0.700, learning rate: 0.001000
+Minibatch error: 40.0%
+Validation error: 39.6%
+Step 100 (epoch 25.00), 395.2 ms
+Minibatch loss: 0.057, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 37.6%
+Step 200 (epoch 50.00), 395.7 ms
+Minibatch loss: 0.036, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 300 (epoch 75.00), 395.6 ms
+Minibatch loss: 0.034, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 36.0%
+Step 400 (epoch 100.00), 397.2 ms
+Minibatch loss: 0.033, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 35.6%
+Step 500 (epoch 125.00), 395.0 ms
+Minibatch loss: 0.033, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 36.8%
+Test error: 36.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_3.ckpt
+[Finished in 239.3s]
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_SIZE= 250 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 128 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.75
+total train_length: 500
+test_length: 50
+250
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 6.2 ms
+Minibatch loss: 0.682, learning rate: 0.001000
+Minibatch error: 36.0%
+Validation error: 39.6%
+Step 100 (epoch 25.00), 395.0 ms
+Minibatch loss: 0.076, learning rate: 0.001000
+Minibatch error: 2.0%
+Validation error: 38.4%
+Step 200 (epoch 50.00), 396.8 ms
+Minibatch loss: 0.036, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 40.0%
+Step 300 (epoch 75.00), 399.5 ms
+Minibatch loss: 0.034, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 39.2%
+Step 400 (epoch 100.00), 398.4 ms
+Minibatch loss: 0.033, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.4%
+Step 500 (epoch 125.00), 394.8 ms
+Minibatch loss: 0.033, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 40.8%
+Test error: 32.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_4.ckpt
+[Finished in 239.6s]
+
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_SIZE= 250 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 256 ;                  learning_rate_ini= 0.0005 ;     decay_rate= 0.95
+total train_length: 500
+test_length: 50
+250
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 6.2 ms
+Minibatch loss: 0.669, learning rate: 0.000500
+Minibatch error: 32.0%
+Validation error: 39.6%
+Step 100 (epoch 25.00), 411.9 ms
+Minibatch loss: 0.296, learning rate: 0.000500
+Minibatch error: 8.0%
+Validation error: 35.6%
+Step 200 (epoch 50.00), 413.5 ms
+Minibatch loss: 0.083, learning rate: 0.000500
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 300 (epoch 75.00), 413.5 ms
+Minibatch loss: 0.074, learning rate: 0.000500
+Minibatch error: 0.0%
+Validation error: 36.8%
+Step 400 (epoch 100.00), 477.5 ms
+Minibatch loss: 0.066, learning rate: 0.000500
+Minibatch error: 0.0%
+Validation error: 37.2%
+Step 500 (epoch 125.00), 428.1 ms
+Minibatch loss: 0.066, learning rate: 0.000500
+Minibatch error: 0.0%
+Validation error: 37.6%
+Test error: 34.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_5.ckpt
+[Finished in 257.9s]
+
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_SIZE= 250 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 256 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.95
+total train_length: 500
+test_length: 50
+250
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 9.4 ms
+Minibatch loss: 0.644, learning rate: 0.001000
+Minibatch error: 28.0%
+Validation error: 39.6%
+Step 100 (epoch 25.00), 506.3 ms
+Minibatch loss: 0.084, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.8%
+Step 200 (epoch 50.00), 411.5 ms
+Minibatch loss: 0.066, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 40.8%
+Step 300 (epoch 75.00), 412.7 ms
+Minibatch loss: 0.067, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.4%
+Step 400 (epoch 100.00), 411.2 ms
+Minibatch loss: 0.064, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 37.2%
+Step 500 (epoch 125.00), 411.1 ms
+Minibatch loss: 0.063, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Test error: 30.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_6.ckpt
+[Finished in 259.0s]
+
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_start= 200 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+VALIDATION_start= 250 ;    EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 256 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.95
+total train_length: 500
+test_length: 50
+50
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 9.4 ms
+Minibatch loss: 0.644, learning rate: 0.001000
+Minibatch error: 28.0%
+Validation error: 36.0%
+Step 100 (epoch 25.00), 517.9 ms
+Minibatch loss: 0.084, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 36.0%
+Step 200 (epoch 50.00), 414.4 ms
+Minibatch loss: 0.066, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 300 (epoch 75.00), 418.8 ms
+Minibatch loss: 0.067, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 34.0%
+Step 400 (epoch 100.00), 426.0 ms
+Minibatch loss: 0.064, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 32.0%
+Step 500 (epoch 125.00), 420.4 ms
+Minibatch loss: 0.063, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 36.0%
+Test error: 30.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_6.ckpt
+[Finished in 263.6s]
+
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_start= 200 ;     SEED= 66478 ;                         NUM_EPOCHS= 150 ;        BATCH_SIZE= 50
+VALIDATION_start= 250 ;    EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 100
+            fc1_shape0= 128 ;   fc1_shape1= 256 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.95
+total train_length: 500
+test_length: 50
+50
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 15.7 ms
+Minibatch loss: 0.654, learning rate: 0.001000
+Minibatch error: 36.0%
+Validation error: 36.0%
+Step 100 (epoch 25.00), 1007.3 ms
+Minibatch loss: 0.068, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 200 (epoch 50.00), 908.9 ms
+Minibatch loss: 0.064, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 30.0%
+Step 300 (epoch 75.00), 824.3 ms
+Minibatch loss: 0.062, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 400 (epoch 100.00), 853.5 ms
+Minibatch loss: 0.061, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 500 (epoch 125.00), 878.0 ms
+Minibatch loss: 0.060, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 34.0%
+Test error: 36.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_7.ckpt
+[Finished in 535.6s]
+
+          IMAGE_SIZE= 9 ;        NUM_CHANNELS= 1 ;           PIXEL_DEPTH= 2 ;               NUM_LABELS= 2
+VALIDATION_start= 200 ;     SEED= 66478 ;                         NUM_EPOCHS= 200 ;        BATCH_SIZE= 50
+VALIDATION_start= 250 ;    EVAL_BATCH_SIZE= 50 ;     EVAL_FREQUENCY= 100 ;     iteration= 50
+            fc1_shape0= 128 ;   fc1_shape1= 256 ;                  learning_rate_ini= 0.001 ;     decay_rate= 0.95
+total train_length: 500
+test_length: 50
+50
+200
+50
+run trainning session
+Initialized!
+Step 0 (epoch 0.00), 6.4 ms
+Minibatch loss: 0.644, learning rate: 0.001000
+Minibatch error: 28.0%
+Validation error: 36.0%
+Step 100 (epoch 25.00), 417.6 ms
+Minibatch loss: 0.084, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 36.0%
+Step 200 (epoch 50.00), 419.8 ms
+Minibatch loss: 0.066, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 38.0%
+Step 300 (epoch 75.00), 421.8 ms
+Minibatch loss: 0.067, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 34.0%
+Step 400 (epoch 100.00), 416.9 ms
+Minibatch loss: 0.064, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 32.0%
+Step 500 (epoch 125.00), 417.6 ms
+Minibatch loss: 0.063, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 36.0%
+Step 600 (epoch 150.00), 417.8 ms
+Minibatch loss: 0.062, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 32.0%
+Step 700 (epoch 175.00), 417.0 ms
+Minibatch loss: 0.062, learning rate: 0.001000
+Minibatch error: 0.0%
+Validation error: 34.0%
+Test error: 34.0%
+Model saved in file: /home/iris/workspace/stock_forecasting/iris/model_save/CNN/model_7.ckpt
+[Finished in 337.3s]
